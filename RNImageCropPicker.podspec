@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.dependency 'React-Core'
   s.dependency 'React-RCTImage'
-  s.dependency 'TOCropViewController', '~> 2.7.4'
+  s.dependency 'TOCropViewController', :git => 'https://github.com/sharekey/TOCropViewController', :commit => '6d23186523e99b980fb42bdead7b44649b6ce865'
   s.resource_bundles = {
     'RNImageCropPickerPrivacyInfo' => ['ios/PrivacyInfo.xcprivacy'],
   }
